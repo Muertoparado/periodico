@@ -11,10 +11,10 @@ display: inline-block;
 header, img{
     width: 100px;
 }
-.px-img{
+/* .px-img{
     width: 200px;
 
-}
+} */
 .box-head1{
     display: inline-block;
     position: relative;
