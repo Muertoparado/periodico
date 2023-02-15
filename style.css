@@ -1,13 +1,20 @@
 body{
+    
     background-color: rgb(226, 177, 103);
     background-image: url(img/vintage-old-paper-texture-background_6225192.webp);
+    
 }
+
 header{
 display: inline-block;
 }
 header, img{
     width: 100px;
 }
+/* section, img{
+    width: 200px;
+
+} */
 .box-head1{
     display: inline-block;
     position: relative;
@@ -15,14 +22,15 @@ header, img{
     text-align: center;
 }
 .box-head2{
-    position: absolute;
+    position:absolute;
     background-color: rgb(110, 216, 145);
     text-align: center;
+    bottom: 0;
     top: 0;
     right: 0;
-    bottom: 0;
     width: 50%;
     height: 10%;
+    display: inline-block;
 
 }
 .box-head3{
@@ -31,12 +39,17 @@ header, img{
     position: absolute;
     background-color: blue;
     text-align: center;
+    /* display:inline */;
 
 }
 div{
-    margin:10px;
-    
+    margin: 10px;
+    text-align: justify;
 }
+/* section{
+    max-width: 50%;
+} */
+
 .text-content{
     width: 33%;
     display:inline-block;
