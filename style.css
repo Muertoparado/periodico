@@ -1,5 +1,33 @@
 body{
     background-color: rgb(226, 177, 103);
+    background-image: url(img/vintage-old-paper-texture-background_6225192.webp);
+}
+header{
+display: inline-block;
+}
+header, img{
+    width: 100px;
+}
+.box-head1{
+    display: inline-block;
+    position: relative;
+    background-color: blue;
+    text-align: center;
+}
+.box-head2{
+    display: inline-block;
+    position: relative;
+    background-color: rgb(110, 216, 145);
+    text-align: center;
+}
+.box-head3{
+    right: 0;
+    top: 0;
+    position: absolute;
+    position: relative;
+    background-color: blue;
+    text-align: center;
+
 }
 div{
     margin:10px;
@@ -16,9 +44,9 @@ div{
 .box2{
     position: absolute;
     display: inline-block;
+    width: 30%;
 }
 .box3{
     right: 0;
-    position: absolute;
-   
+    position: absolute;   
 }
