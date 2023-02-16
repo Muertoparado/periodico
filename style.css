@@ -5,14 +5,15 @@ body{
 }
 
 header{
-
-position: relative;
 background-color: blueviolet;
-display: inline-block;
+width: 100%;
+position: relative;
+
 }
-header, img{
-    width: 100px;
+.pximg{
+    width: 200px;
 }
+
 .body{
     position: relative;
     width: 1000px;
@@ -31,31 +32,30 @@ p{
     font-family:'Courier New', Courier, monospace;
 }
 .box-head1{
-    display: inline;
     position: relative;
     background-color: blue;
     text-align: center;
 }
 .box-head2{
-    position:relative;
+    position:absolute;
     background-color: rgb(110, 216, 145);
     text-align: center;
     bottom: 0;
     top: 0;
-   /*  right: 36rem; */
-    width: 500px;
-    height: 50px;
+    right: 0;
     padding: 50px;
     
 
 }
 .box-head3{
   
-    position: relative;
+    position: absolute;
     background-color: blue;
     text-align: center;
     display:inline ;
     right: 0;
+    top:0;
+
 
 
 }
