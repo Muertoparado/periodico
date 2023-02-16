@@ -2,53 +2,63 @@ body{
     
     background-color: rgb(226, 177, 103);
     background-image: url(img/vintage-old-paper-texture-background_6225192.webp);
-    
 }
 
 header{
+
+position: relative;
+background-color: blueviolet;
 display: inline-block;
 }
 header, img{
     width: 100px;
 }
-/* .px-img{
-    width: 200px;
-
-} */
+.body{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+hr{
+    border: 2px solid;
+    color: #000;
+}
+div{
+    width: 30%;
+    margin: 15px;
+    text-align: justify;
+}
+p{
+    font-family:'Courier New', Courier, monospace;
+}
 .box-head1{
-    display: inline-block;
+    display: inline;
     position: relative;
     background-color: blue;
     text-align: center;
 }
 .box-head2{
-    position:absolute;
+    position:relative;
     background-color: rgb(110, 216, 145);
     text-align: center;
     bottom: 0;
     top: 0;
-    right: 0;
-    width: 50%;
-    height: 10%;
-    display: inline-block;
+   /*  right: 36rem; */
+    width: 500px;
+    height: 50px;
+    padding: 50px;
+    
 
 }
 .box-head3{
-    right: 0;
-    top: 0;
-    position: absolute;
+  
+    position: relative;
     background-color: blue;
     text-align: center;
-    /* display:inline */;
+    display:inline ;
+    right: 0;
+
 
 }
-div{
-    margin: 10px;
-    text-align: justify;
-}
-/* section{
-    max-width: 50%;
-} */
 
 .text-content{
     width: 33%;
@@ -62,8 +72,15 @@ div{
     position: absolute;
     display: inline-block;
     width: 30%;
+    margin: auto;
 }
 .box3{
     right: 0;
-    position: absolute;   
+    position: absolute; 
+    margin:auto;  
 }
+ footer, .imgx{
+    width: 300px;
+    margin: auto;
+    
+ }
