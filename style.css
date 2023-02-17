@@ -1,20 +1,21 @@
 body {
 
-    background-color: rgb(226, 177, 103);
     background-image: url(img/vintage-old-paper-texture-background_6225192.webp);
 }
 
 header:first-child {
-    background-color: blueviolet;
     width: 100%;
     position: relative;
     display: inline-block;
+    
 
 }
 
 .pximg {
-    width: 200px;
+    width: 90px;
+    
 }
+
 
 .body {
     position: relative;
@@ -28,9 +29,11 @@ hr {
 }
 
 div {
-    width: 22%;
-    margin: 15px;
+    height: 50px;
+    width: 30%;
+    margin: 10px;
     text-align: justify;
+    
 }
 
 p {
@@ -39,38 +42,55 @@ p {
 
 .headert {
     position: relative;
-    background-color: bisque;
-    padding: 30px;
-    top: 0;
+    padding: 10px;
     margin: auto;
+    text-align: center;
+    font-size: 32px;
+}
+.linea1{
+    width: 450px;
+    height: 80px;
+    top: 0;
+    position: relative;
+    margin: auto 0 ;
+    padding: 0 0 70px 0;
+}
+.linea2{
+    position: relative;
+    width: 990px;
+    height: 70px;
+    top: 0;
+
 }
 
 .box-head1 {
     display: inline-block;
     position: absolute;
-    background-color: blue;
     text-align: center;
+    bottom: 0;
+    top: 0;
+    
 }
 
 .box-head2 {
     position: relative;
-    background-color: rgb(110, 216, 145);
     text-align: center;
     margin: 0 auto;
-    padding: 50px;
     top: 0;
     bottom: 0;
     right: 0;
+    width: 500px;
+    height: 100px;
 }
 
 .box-head3 {
 
     position: absolute;
-    background-color: blue;
     text-align: center;
-    display: inline;
+    display: inline-block;
     right: 0;
     top: 0;
+    bottom: 0;
 
 }
 
@@ -80,10 +100,12 @@ p {
 
 }
 
-.text-content img {
+img {
     width: 100%
 }
-
+.imgubic{
+    width: 30px;
+}
 .box2 {
     position: absolute;
     display: inline-block;
@@ -94,38 +116,58 @@ p {
 .box3 {
     right: 0;
     position: absolute;
-    margin: auto;
+    margin: 0 auto;
+    
+}
+.col3f{
+
+width: 100%;
+height: auto;
+position: relative;
+}
+.parr3{
+    
+    width: 69%;
+    right: 0;
+    position: relative;
+    padding: 0 90px;
 }
 
-.drop:first-child {
-    width: 100%;
+.pximgf{
+
+    width: 90px;
+    position: absolute;
+    left: 0;
+}
+.imgf{
+    width: 350px;
     position: absolute;
 }
-.pximf {
-        position: relative;
-        width: 50px;
-}
-
-.footer:first-child {
-    position: relative;
+.footer{
+    position: absolute;
     right: 0;
     margin: auto 0;
+
 }
 
 .footer1 {
-    position: absolute;
+    position: relative;
+    margin: 1;
 }
 
 .footer2 {
     position: relative;
     margin: 0 auto;
-    top: 0;
+    top: -60px;;
     bottom: 0;
     right: 0;
 }
 
 .footer3 {
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    position: relative;
+    width: 380px;
+    left: 620px;
+    top: -128px;
+
+   
 }
